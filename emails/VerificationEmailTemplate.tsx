@@ -15,7 +15,7 @@ import {
     otp: string;
   }
   
-  export default function VerificationEmail({ username, otp }: VerificationEmailProps) {
+  export default function VerificationEmailTemplate({ username, otp }: VerificationEmailProps) {
     return (
       <Html lang="en" dir="ltr">
         <Head>
